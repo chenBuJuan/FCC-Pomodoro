@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <div id="container">
+        <div id="pomotoro">
+            <span id="minute">25</span>
+            <span>:</span>
+            <span id="second">00</span>
+        </div>
+        <div id="setting">
+            <input type="text" placeholder="自定义分钟数" id="time">
+            <button id="start">Start</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div id="tip">
+            <span>收获了</span>
+            <span id="num">0</span>
+            <span>个番茄</span>
+        </div>
+    </div>
+
+    <script src="action/jquery.min.js"></script>
+    <script src="action/main.js"></script>
+</body>
+</html>

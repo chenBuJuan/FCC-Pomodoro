@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Microsoft Yahei';
+}
+
+#container{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#pomotoro{
+    height: 300px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    line-height: 300px;
+    text-align: center;
+    border: 1px solid #f55;
+    border-radius: 200px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+#setting{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+#time{
+    height: 30px;
+    width: 100px;
+    border: 1px solid #f55;
+    outline: 0;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-moz-placeholder,
+:-ms-input-placeholder,
+::-webkit-input-placeholder{
+    color: #666;
+}
+#setting button{
+    height: 30px;
+    width: 50px;
+    color: #fff;
+    background-color: #f55;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease-in-out 0s;
+}
+#setting button:hover{
+    background-color: #f22;
+}
+
+
+#tip{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #666;
+}
